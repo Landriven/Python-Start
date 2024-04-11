@@ -1,0 +1,56 @@
+#Python things to reference
+isalpha() to check if a string contains only characters and is not empty
+isalnum() to check if a string contains characters or digits and is not empty
+isdecimal() to cjeccl if a string contains digits and is not empty
+lower() to get a lowercsae version of a string
+islower() to check iof a string is lowercase
+upper() to get and uppercase version of a string 
+isupper() to check if a string is uppercase
+title() to get a capitalized version of a string
+startswith() to check if the strinf starts with a specific substring 
+endswith() to check if the strinf ends with a specific substring
+replace() to replace a part of a string
+split() to split a string on a specific character separator 
+strip() to trim the whitespace from a string 
+join() to append new letters to a string 
+find() to find the position of a substring
+all return a new modified string
+example ::
+name = Devin 
+print(name.lower()
+print(name)
+= devin
+Len = length 
+example 
+name = (len(devin))
+=5
+  esacping = adding special character into a string IE:\
+  example:: name = "De\"vin" or 'De"vin' or 'De"\vin' 
+  = Devin
+  you can escape an escape IE //
+  Example:: name = De//vin 
+  = De\vin
+index = []
+Name = "Devin"
+print(name[1])
+01234 0 is the staring point of strings -1 will be last in string and so on
+Devin so it = e
+[1:3] returns a part of string IE: ev or [:3] start to start of 3 IE: Dev
+  boolean = true or false 
+  example::
+  done = true 
+  if done:
+    print("yes")
+  else:
+    print("no")
+  =yes
+  strings are false when empty if done = ""  
+  than prints no
+  if string contains anything then print would be yes
+  you can check for boolean with print(type(done) == bool) in this case would be true or yes
+  example::2
+  book_1_read = True 
+  book_2_read = False
+  read_any_book = any([book_1_read, book_2_read])
+  = true because any one could have read true leading top true statement
+  if statement was all then all would have to be true to be true in this case would be false becasue book_2_read = False
