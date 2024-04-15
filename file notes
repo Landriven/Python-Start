@@ -41,7 +41,7 @@ Devin so it = e
   done = true 
   if done:
     print("yes")
-  else:
+  else: 
     print("no")
   =yes
   strings are false when empty if done = ""  
@@ -54,3 +54,66 @@ Devin so it = e
   read_any_book = any([book_1_read, book_2_read])
   = true because any one could have read true leading top true statement
   if statement was all then all would have to be true to be true in this case would be false becasue book_2_read = False
+Float = any number with decimal point
+  complex numbers = an extension of real numbers all numbers are expressed in a real part an imaginary part
+  imaginary = J 
+  example:: complex = 2=3j
+  num1 = 2=3j
+  num2 = complex(2,3)
+  print(num2.real, num2.imag) 
+  = 2.0 3.0 
+built in functions to help with numbers 
+abs = absolute 5 = 5 / -5 = 5 type situation
+round = rounding 5.49 prints 5 but print(round(5.49, 1)) = 5.5 the 1 represents the decimal point to round to
+enums = readable names bound to constant value
+Example::
+from Enum import Enum
+class State(Enum):
+INACTIVE = 0 
+ACTIVE = 1
+print(State(Active)) = Active value would be 1 this is the only way to create a constant within python so the value cant be changed
+  User Input
+  Example::
+  age = input("what is your age?")
+  print("Your age is" = age)
+  = what is your age? enter 6
+    Your age is 6
+Control statements = if else elif
+  list
+  Example::
+  dogs = ["BMO", 1, "Belle", true]
+  list can also be empty IE: []
+  append IE: dogs.append(kyle) = kyle would be added to the list
+  extend IE: dogs.extend(["kyle", 5]) = kyle and 5 would be added to the list
+  extend can also be shown as dogs += ["kyle, 5] = the same thing as above += needs square brackets or will add each letter individually
+  remove IE: dogs.remove("Belle") = list wihtout Belle
+  pop IE: print(dogs.po())
+          print(dogs) this will remove the last added item and print the list IE: true will be gone
+  insert IE: items.insert(2,"test") test will be placed in spot two of the list
+            also item[1:1] = ["Test1", "Test2"] = both test going to the one spot IE: BMO, Test1, Test2 exc....
+  sort IE: items.sort() but will only sort same types so ints, strings etc... 
+  sorting will do uppercase first and lowercase second IE: A, B, C, a, b, c 
+  you can sort everything normally with items.sort(key=str.lower) = A, a, b, C, D
+tuples = creat imutable groups of objects (unmodifiable list)
+example = names = ("Devin", "Shaunee", "Sterling")
+  Dictionaries = creat key valued pairs
+  example = dog = {"name": "Devin", "age": 27}
+  you can change the vakues using dog["name"] = "BMO"
+  you can use get to get stuff IE: print(dog.get("name")) prints Deivn 
+  you can also add values IE: print(dog.get("color", "Brown")) it would print brown and add it to the list
+Sets:: names = {"Devin", "Sterling"} can not have two of the same items
+| = union symbol
+  Functions: lets us creat instructions when needed
+  example:: def hello():
+              print("Hello!")
+to call the functions: hello()
+  Parameter = values accepted by the function in  the function definition
+  argumetns = calues passed to the function when called
+  
+  
+
+
+          
+    
+  
+  
